@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS STOCK;
+  
+CREATE TABLE STOCK (
+  id NUMBER   PRIMARY KEY,
+  name VARCHAR(250) ,
+  CURRENT_PRICE number(38) ,
+  lastUpdate Date 
+);
